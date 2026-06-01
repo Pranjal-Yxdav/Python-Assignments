@@ -1,23 +1,24 @@
 import numpy as np
 
+#question 1
 #arr1 = np.array([1, 2, 3])
 #arr2 = np.array([[4, 5, 6],
 #                 [7, 8, 9]])
 #result = np.vstack((arr1, arr2))
 #print(result)
 
-
+#question 2
 #arr = np.array([[1, 2, 3],
 #                [4, 5, 6]])
 #flat_arr = arr.flatten()
 #print(flat_arr)
 
-
+#question 3
 #arr = np.array([10, 20, 30, 40, 50])
 #reversed_arr = arr[::-1]
 #print(reversed_arr)
 
-
+#question 4
 #arr = np.array([12, 45, 23, 89, 10])
 #print("Maximum Value:", np.max(arr))
 
@@ -68,7 +69,7 @@ import numpy as np
 #b = np.array([2, 4, 5])
 #print(a / b)
 
-
+#question 5
 #arr = np.array([
 #    [[1, 2], [3, 4]],
 #    [[5, 6], [7, 8]]
@@ -87,7 +88,7 @@ import numpy as np
 #    print(value)
 
 
-
+#question 6
 arr1 = np.array([[1, 2, 3],
                  [4, 5, 6]])
 
