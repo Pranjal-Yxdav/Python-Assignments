@@ -1,3 +1,4 @@
+# 2
 import random
 
 choices = ["rock", "paper", "scissors"]
