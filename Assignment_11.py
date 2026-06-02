@@ -1,92 +1,91 @@
 import numpy as np
 
 #question 1
-#arr1 = np.array([1, 2, 3])
-#arr2 = np.array([[4, 5, 6],
-#                 [7, 8, 9]])
-#result = np.vstack((arr1, arr2))
-#print(result)
+arr1 = np.array([1, 2, 3])
+arr2 = np.array([[4, 5, 6],
+                 [7, 8, 9]])
+result = np.vstack((arr1, arr2))
+print(result)
 
 #question 2
-#arr = np.array([[1, 2, 3],
-#                [4, 5, 6]])
-#flat_arr = arr.flatten()
-#print(flat_arr)
+arr = np.array([[1, 2, 3],
+                [4, 5, 6]])
+flat_arr = arr.flatten()
+print(flat_arr)
 
 #question 3
-#arr = np.array([10, 20, 30, 40, 50])
-#reversed_arr = arr[::-1]
-#print(reversed_arr)
+arr = np.array([10, 20, 30, 40, 50])
+reversed_arr = arr[::-1]
+print(reversed_arr)
 
 #question 4
-#arr = np.array([12, 45, 23, 89, 10])
-#print("Maximum Value:", np.max(arr))
+arr = np.array([12, 45, 23, 89, 10])
+print("Maximum Value:", np.max(arr))
 
 
-#arr = np.array([12, 45, 23, 89, 10])
-#print("Minimum Value:", np.min(arr))
+arr = np.array([12, 45, 23, 89, 10])
+print("Minimum Value:", np.min(arr))
 
 
-#arr = np.array([[1, 2, 3],
-#                [4, 5, 6]])
-#rows, cols = arr.shape
-#print("Rows:", rows)
-#print("Columns:", cols)
+arr = np.array([[1, 2, 3],
+                [4, 5, 6]])
+rows, cols = arr.shape
+print("Rows:", rows)
+print("Columns:", cols)
 
 
-#arr = np.array([[10, 20, 30],
-#                [40, 50, 60]])
-#print("All Elements:")
-#print(arr)
-#print("Specific Element:", arr[1, 2])
+arr = np.array([[10, 20, 30],
+                [40, 50, 60]])
+print("All Elements:")
+print(arr)
+print("Specific Element:", arr[1, 2])
 
 
-#arr = np.array([[1, 2, 3],
-#                [4, 5, 6]])
-#total = 0
-#for row in arr:
-#    for value in row:
-#        total += value
-#print("Sum =", total)
+arr = np.array([[1, 2, 3],
+                [4, 5, 6]])
+total = 0
+for row in arr:
+    for value in row:
+        total += value
+print("Sum =", total)
 
 
-#a = np.array([1, 2, 3])
-#b = np.array([4, 5, 6])
-#print(a + b)
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+print(a + b)
 
 
-#a = np.array([10, 20, 30])
-#b = np.array([1, 2, 3])
-#print(a - b)
+a = np.array([10, 20, 30])
+b = np.array([1, 2, 3])
+print(a - b)
 
 
-#a = np.array([1, 2, 3])
-#b = np.array([4, 5, 6])
-#print(a * b)
+a = np.array([1, 2, 3])
+b = np.array([4, 5, 6])
+print(a * b)
 
 
-#a = np.array([10, 20, 30])
-#b = np.array([2, 4, 5])
-#print(a / b)
+a = np.array([10, 20, 30])
+b = np.array([2, 4, 5])
+print(a / b)
 
 #question 5
-#arr = np.array([
-#    [[1, 2], [3, 4]],
-#    [[5, 6], [7, 8]]
-#])
-#for matrix in arr:
-#    for row in matrix:
-#        for value in row:
-#            print(value)
+arr = np.array([
+    [[1, 2], [3, 4]],
+    [[5, 6], [7, 8]]
+])
+for matrix in arr:
+    for row in matrix:
+        for value in row:
+            print(value)
 
 
-#arr = np.array([
-#    [[1, 2], [3, 4]],
-#    [[5, 6], [7, 8]]
-#])
-#for value in np.nditer(arr):
-#    print(value)
-
+arr = np.array([
+    [[1, 2], [3, 4]],
+    [[5, 6], [7, 8]]
+])
+for value in np.nditer(arr):
+    print(value)
 
 #question 6
 arr1 = np.array([[1, 2, 3],
