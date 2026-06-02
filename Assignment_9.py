@@ -1,3 +1,5 @@
+# 1
+
 import re
 
 username = input("Enter Username: ")
@@ -31,11 +33,16 @@ else:
     print("Weak Password")
 
 
+# 2
+
 text = "My marks are 85, 90 and 95"
 
 numbers = re.findall(r'\d+', text)
 
 print(numbers)
+
+
+# 3
 
 date = "27-05-2026"
 
@@ -43,4 +50,5 @@ pattern = r'^\d{2}-\d{2}-\d{4}$'
 
 if re.match(pattern, date):
     print("Valid Format")
-
+else:
+    print("Invalid Format")
