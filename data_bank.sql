@@ -9410,8 +9410,8 @@ VALUES
   SELECT * FROM customer_nodes;
   SELECT * FROM customer_transactions;
 
-
-  --A
+--Assignment 14 (6th June)
+--A
 --1.
 SELECT COUNT(DISTINCT node_id) AS unique_nodes
 FROM customer_nodes;
