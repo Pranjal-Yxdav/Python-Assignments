@@ -58,9 +58,13 @@ if os.path.exists(output_path):
 os.makedirs("output", exist_ok=True)
 
 # Save output
-output_rdd = sc.parallelize(
-    [f"{emp[0]},{emp[1]},{emp[2]},{emp[3]}" for emp in top3]
-)
+output_data = [
+    f"{emp[0]},{emp[1]},{emp[2]},{emp[3]}"
+    for emp in top3
+]
+
+# Create RDD with only one partition
+output_rdd = sc.parallelize(output_data, 1)
 
 output_rdd.saveAsTextFile(output_path)
 
